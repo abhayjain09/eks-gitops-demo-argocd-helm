@@ -1,0 +1,15 @@
+replicaCount: 2
+
+service:
+  type: ClusterIP
+  ports:
+    http: 80
+
+ingress:
+  enabled: true
+  ingressClassName: alb
+  hostname: ""
+  annotations:
+    kubernetes.io/ingress.class: alb
+    alb.ingress.kubernetes.io/scheme: internet-facing
+    alb.ingress.kubernetes.io/target-type: ip
