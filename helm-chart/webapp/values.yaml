@@ -1,6 +1,7 @@
 image:
   repository: abhay09jain/love-shreya
-  tag: "1.1"
+  tag: "1.0"
 
 service:
   port: 80
+
