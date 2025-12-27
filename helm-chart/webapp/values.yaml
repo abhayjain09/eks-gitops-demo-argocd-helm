@@ -1,11 +1,9 @@
+app:
+  message: "Welcome to Version 2 💖"
+
 image:
   repository: abhay09jain/love-shreya
-  tag: 1.1
+  tag: "1.1"
 
 service:
   port: 80
-
-
-
-
-
